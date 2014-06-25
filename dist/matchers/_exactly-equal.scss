@@ -1,0 +1,3 @@
+@function exactly_equal($value) {
+  @return should("exactly equal", $value, inspect(actual()) == inspect($value));
+}

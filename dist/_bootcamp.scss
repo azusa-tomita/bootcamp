@@ -26,6 +26,7 @@
 
 @import "matchers/be";
 @import "matchers/equal";
+@import "matchers/exactly-equal";
 
 @import "matchers/lists/be-empty";
 @import "matchers/lists/be-longer-than";
